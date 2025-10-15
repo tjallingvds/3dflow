@@ -1,0 +1,132 @@
+.about-me {
+  padding: 120px 0;
+  background: linear-gradient(180deg, var(--color-background-soft) 0%, var(--color-background) 100%);
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.about-me .section-title {
+  font-family: var(--font-serif);
+  font-size: 54px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+
+.about-me .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  border-radius: 2px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-image-wrapper {
+  position: sticky;
+  top: 100px;
+}
+
+.about-image-placeholder {
+  width: 100%;
+  aspect-ratio: 3/4;
+  background: linear-gradient(135deg, var(--color-background-alt) 0%, var(--color-background-soft) 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-medium);
+  transition: var(--transition-smooth);
+}
+
+.about-image-placeholder:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-strong);
+}
+
+.image-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-paragraph {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-text-medium);
+  margin: 0;
+}
+
+.linkedin-note {
+  font-style: italic;
+  color: var(--color-text-light);
+  font-size: 15px;
+}
+
+@media (max-width: 968px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-image-wrapper {
+    position: relative;
+    top: 0;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-me {
+    padding: 60px 0;
+  }
+
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .about-text {
+    gap: 20px;
+  }
+
+  .about-paragraph {
+    font-size: 15px;
+  }
+}
+
