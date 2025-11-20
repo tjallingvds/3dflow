@@ -30,6 +30,14 @@
   margin-bottom: 8px;
 }
 
+.hero-description {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text-dark);
+  margin-bottom: 10px;
+}
+
 .hero-cta {
   align-self: flex-start;
 }

@@ -1,27 +1,30 @@
 import React from 'react'
-import Navigation from './components/Navigation'
-import Banner from './components/Banner'
-import Hero from './components/Hero'
-import Philosophy from './components/Philosophy'
-import MainContent from './components/MainContent'
-import AboutMe from './components/AboutMe'
-import ForWhom from './components/ForWhom'
-import Quote from './components/Quote'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import OverMij from './pages/OverMij'
+import Brainspotting from './pages/Brainspotting'
+import HoeWerktHet from './pages/HoeWerktHet'
+import Praktisch from './pages/Praktisch'
+import Kosten from './pages/Kosten'
+import Reviews from './pages/Reviews'
+import Actueel from './pages/Actueel'
+import Blogs from './pages/Blogs'
 
 function App() {
   return (
-    <div className="app">
-      <Navigation />
-      <Banner />
-      <Hero />
-      <Philosophy />
-      <MainContent />
-      <AboutMe />
-      <ForWhom />
-      <Quote />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/over-mij" element={<OverMij />} />
+        <Route path="/brainspotting" element={<Brainspotting />} />
+        <Route path="/hoe-werkt-het" element={<HoeWerktHet />} />
+        <Route path="/praktisch" element={<Praktisch />} />
+        <Route path="/kosten" element={<Kosten />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/actueel" element={<Actueel />} />
+        <Route path="/blogs" element={<Blogs />} />
+      </Routes>
+    </Router>
   )
 }
 

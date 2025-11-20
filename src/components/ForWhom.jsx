@@ -36,18 +36,19 @@ function ForWhom() {
             onClick={() => toggleSection('wat')}
           >
             <p>
-              Thema's waar ik positieve ervaring mee heb, zijn spanning, angst, paniek, niet lekker in je 
-              vel zitten, vastlopen, vermoeidheid, geen energie, depressie, somberheid, zorgen maken, 
-              piekeren, slecht slapen, boosheid, niet voelen, niet weten wat je wil, gebrek aan zingeving, 
-              overweldigende gebeurtenissen zoals verlies van werk, gezondheid, scheiding, negatieve 
-              zelfovertuigingen, zelf ondermijnend gedrag, persoonlijkheidsproblematiek, relatieproblemen, 
-              seksuele thema's, trauma, traumatische gebeurtenis, schooltrauma, problematische hechting, 
-              eenzaamheid, verslaving, dwangstoornis, kort lontje, verdriet, rouw, hooggevoeligheid, 
-              issues rondom hb of uhb, autisme, overprikkeling, burn-out, pijn, dissociatie, tinnitus, 
-              niet tot je recht komen, dat je delen van jezelf - bijvoorbeeld onbevangenheid, goede 
-              zelfzorg, hobby's - bent kwijtgeraakt, pleasen, uiteenlopende thema's rondom geloof en 
-              zelfs stotteren, ofwel: iedere toestand die jou remt of waar jij last van hebt. Je hoeft 
-              niet precies te weten wàt er is, om te weten dàt het er is!
+              Thema's waar ik positieve ervaring mee heb, zijn spanning, angst, fobieën, faalangst, 
+              paniek, niet lekker in je vel zitten, vastlopen, vermoeidheid, geen energie, depressie, 
+              somberheid, zorgen maken, piekeren, slecht slapen, boosheid, niet voelen, niet weten wat 
+              je wil, gebrek aan zingeving, overweldigende gebeurtenissen zoals verlies van werk, 
+              gezondheid, scheiding, negatieve zelfovertuigingen, zelf ondermijnend gedrag, 
+              persoonlijkheidsproblematiek, relatieproblemen, seksuele thema's, trauma, traumatische 
+              gebeurtenis, schooltrauma, problematische hechting, eenzaamheid, verslaving, dwangstoornis, 
+              kort lontje, verdriet, rouw, hooggevoeligheid, issues rondom hb of uhb, autisme, 
+              overprikkeling, burn-out, pijn, dissociatie, tinnitus, niet tot je recht komen, dat je 
+              delen van jezelf - bijvoorbeeld onbevangenheid, goede zelfzorg, hobby's - bent kwijtgeraakt, 
+              pleasen, uiteenlopende thema's rondom geloof en zelfs stotteren, ofwel: iedere toestand die 
+              jou remt of waar jij last van hebt. Je hoeft niet precies te weten wàt er is, om te weten 
+              dàt het er is!
             </p>
             <p>
               Bij kinderen kan een en ander zich ook uiten als woedebuien, vastlopen, gedragsproblemen 

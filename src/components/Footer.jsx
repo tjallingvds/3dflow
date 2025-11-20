@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="footer-title">3DFlow Therapy</h3>
+            <h3 className="footer-title">3DFlow</h3>
             <p className="footer-description">
               Direct bij waar het zit.<br />
               Online en in Rotterdam.
@@ -53,7 +53,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <p className="footer-copyright">
-            © 2025 3DFlow Therapy. Alle rechten voorbehouden.
+            © 2025 3DFlow. Alle rechten voorbehouden.
           </p>
         </div>
       </div>

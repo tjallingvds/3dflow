@@ -1,0 +1,59 @@
+.brainspotting-page {
+  flex: 1;
+  padding: 80px 0;
+  background-color: var(--color-background);
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.teaser-section,
+.full-section {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-subtle);
+}
+
+.section-subtitle {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  margin-bottom: 30px;
+}
+
+.divider-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  margin: 40px 0;
+}
+
+.external-link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: var(--transition-smooth);
+}
+
+.external-link:hover {
+  color: var(--color-primary-dark);
+}
+
+@media (max-width: 640px) {
+  .brainspotting-page {
+    padding: 60px 0;
+  }
+
+  .teaser-section,
+  .full-section {
+    padding: 30px 20px;
+  }
+
+  .section-subtitle {
+    font-size: 26px;
+  }
+}
+
