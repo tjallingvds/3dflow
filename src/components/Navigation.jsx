@@ -26,6 +26,7 @@ function Navigation() {
         </button>
 
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+          <Link to="/" className="nav-link">Home</Link>
           {isHome ? (
             <a href="#over-mij" className="nav-link">Over mij</a>
           ) : (

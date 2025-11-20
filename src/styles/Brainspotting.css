@@ -1,45 +1,55 @@
 .brainspotting-page {
   flex: 1;
-  padding: 80px 0;
+  padding: 80px 0 100px;
   background-color: var(--color-background);
 }
 
-.page-content {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
-.teaser-section,
-.full-section {
-  background-color: white;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: var(--shadow-subtle);
-}
-
-.section-subtitle {
+.section-heading {
   font-family: var(--font-serif);
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   color: var(--color-text-primary);
-  margin-bottom: 30px;
+  margin: 50px 0 20px 0;
+  line-height: 1.3;
 }
 
-.divider-line {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
-  margin: 40px 0;
+.section-heading:first-of-type {
+  margin-top: 0;
+}
+
+.section-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-text-dark);
+  margin: 0 0 20px 0;
+}
+
+.reference-note {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-light);
+  margin: 50px 0 0 0;
+  font-style: italic;
 }
 
 .external-link {
   color: var(--color-primary);
-  text-decoration: underline;
+  text-decoration: none;
   transition: var(--transition-smooth);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .external-link:hover {
   color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary-dark);
 }
 
 @media (max-width: 640px) {
@@ -47,13 +57,20 @@
     padding: 60px 0;
   }
 
-  .teaser-section,
-  .full-section {
-    padding: 30px 20px;
+  .page-container {
+    padding: 0 20px;
   }
 
-  .section-subtitle {
-    font-size: 26px;
+  .section-heading {
+    font-size: 24px;
+    margin: 40px 0 15px 0;
+  }
+
+  .section-text {
+    font-size: 15px;
+  }
+
+  .reference-note {
+    font-size: 14px;
   }
 }
-
