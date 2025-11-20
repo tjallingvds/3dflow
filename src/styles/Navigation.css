@@ -40,6 +40,11 @@
   gap: 35px;
 }
 
+.nav-menu > a:first-child,
+.nav-menu > .nav-link:first-child {
+  margin-left: 20px;
+}
+
 .nav-link {
   font-family: var(--font-sans);
   font-size: 15px;

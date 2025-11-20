@@ -5,7 +5,7 @@
 }
 
 .intro-note {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto 40px auto;
   padding: 20px 40px;
   background: linear-gradient(135deg, var(--color-background-soft) 0%, var(--color-background-alt) 100%);
@@ -22,7 +22,7 @@
 }
 
 .pricing-section {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto 35px auto;
   padding: 0 40px;
 }
@@ -49,13 +49,13 @@
 }
 
 .sessions-section {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto 50px auto;
   padding: 0 40px;
 }
 
 .divider {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 50px auto;
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--color-border), transparent);
@@ -83,7 +83,7 @@
 }
 
 .contact-note {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 40px;
   background: linear-gradient(135deg, var(--color-background-soft) 0%, var(--color-background-alt) 100%);
