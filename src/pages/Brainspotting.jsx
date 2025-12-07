@@ -14,24 +14,26 @@ function Brainspotting() {
         <div className="page-container">
           <h1 className="page-title">Brainspotting + ISTDP</h1>
           
-          <h2 className="section-heading">Waarom Brainspotting werkt</h2>
-          <p className="section-text">
-            Het wordt steeds duidelijker dat de impact van onverwerkte ervaringen in alle delen van 
-            het zenuwstelsel ligt opgeslagen.
-          </p>
-          <p className="section-text">
-            Om volledig te kunnen helen, moeten daarom álle delen van het zenuwstelsel worden bereikt.
-          </p>
-          <p className="section-text">
-            Met Brainspotting gebeurt dat, doordat het gebruikt maakt unieke ingang van de ogen. De 
-            ogen - betrokken bij waarneming, oriëntatie, (on)veiligheid en hechting - zijn letterlijk 
-            een uitstulping van het brein, en staan rechtstreeks in verbinding met alle delen van het 
-            zenuwstelsel.
-          </p>
-          <p className="section-text">
-            Zo wordt het mogelijk om diep opgeslagen ervaringen integraal te bereiken en nieuwe 
-            verbindingen te laten ontstaan, in veiligheid.
-          </p>
+          <div className="brainspotting-highlight">
+            <h2 className="section-heading">Perspectief</h2>
+            <p className="section-text">
+              Het wordt steeds duidelijker dat de impact van onverwerkte ervaringen in alle delen van 
+              het zenuwstelsel ligt opgeslagen.
+            </p>
+            <p className="section-text">
+              Om volledig te kunnen helen, moeten daarom álle delen van het zenuwstelsel worden bereikt.
+            </p>
+            <p className="section-text">
+              Met Brainspotting gebeurt dat, doordat het gebruik maakt van de unieke ingang van de ogen. De 
+              ogen - betrokken bij waarneming, oriëntatie, (on)veiligheid en hechting - zijn letterlijk 
+              een uitstulping van het brein, en staan rechtstreeks in verbinding met alle delen van het 
+              zenuwstelsel.
+            </p>
+            <p className="section-text">
+              Zo wordt het mogelijk om diep opgeslagen ervaringen integraal te bereiken en nieuwe 
+              verbindingen te laten ontstaan, in veiligheid.
+            </p>
+          </div>
 
           <h2 className="section-heading">Brainspotting</h2>
           <p className="section-text">

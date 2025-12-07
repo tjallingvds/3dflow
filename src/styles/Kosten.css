@@ -84,20 +84,15 @@
 
 .contact-note {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 40px;
-  background: linear-gradient(135deg, var(--color-background-soft) 0%, var(--color-background-alt) 100%);
-  border-radius: 12px;
-  border-left: 4px solid var(--color-primary);
+  margin: 60px auto 0 auto;
+  padding: 0 40px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.contact-note p {
-  font-family: var(--font-sans);
-  font-size: 17px;
-  line-height: 1.7;
-  color: var(--color-text-dark);
-  margin: 0 0 25px 0;
+.contact-btn {
+  /* No custom styling needed - uses global btn-primary */
 }
 
 @media (max-width: 640px) {
@@ -140,14 +135,6 @@
   }
 
   .contact-note {
-    padding: 30px 20px;
-  }
-
-  .contact-note p {
-    font-size: 16px;
-  }
-
-  .divider {
-    margin: 50px auto;
+    padding: 0 20px;
   }
 }

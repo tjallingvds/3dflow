@@ -26,23 +26,24 @@ function Navigation() {
         </button>
 
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>Home</Link>
           {isHome ? (
-            <a href="#over-mij" className="nav-link">Over mij</a>
+            <a href="#over-mij" className="nav-link" onClick={() => setIsMenuOpen(false)}>Over mij</a>
           ) : (
-            <Link to="/over-mij" className="nav-link">Over mij</Link>
+            <Link to="/over-mij" className="nav-link" onClick={() => setIsMenuOpen(false)}>Over mij</Link>
           )}
           {isHome ? (
-            <a href="#voor-wie" className="nav-link">Voor wie?</a>
+            <a href="#voor-wie" className="nav-link" onClick={() => setIsMenuOpen(false)}>Voor wie?</a>
           ) : (
-            <Link to="/#voor-wie" className="nav-link">Voor wie?</Link>
+            <Link to="/#voor-wie" className="nav-link" onClick={() => setIsMenuOpen(false)}>Voor wie?</Link>
           )}
-          <Link to="/brainspotting" className="nav-link">Brainspotting + ISTDP</Link>
+          <Link to="/brainspotting" className="nav-link" onClick={() => setIsMenuOpen(false)}>Brainspotting + ISTDP</Link>
           
           <div 
             className="nav-dropdown"
             onMouseEnter={() => setIsMeerWetenOpen(true)}
             onMouseLeave={() => setIsMeerWetenOpen(false)}
+            onClick={() => setIsMeerWetenOpen(!isMeerWetenOpen)}
           >
             <span className="nav-link">
               Meer weten?
@@ -53,11 +54,11 @@ function Navigation() {
             {isMeerWetenOpen && (
               <div className="dropdown-menu">
                 <div className="dropdown-menu-inner">
-                  <Link to="/praktisch">Praktisch</Link>
-                  <Link to="/kosten">Kosten</Link>
-                  <Link to="/reviews">Reviews</Link>
-                  <Link to="/actueel">Actueel</Link>
-                  <Link to="/blogs">Blogs</Link>
+                  <Link to="/praktisch" onClick={() => setIsMenuOpen(false)}>Praktisch</Link>
+                  <Link to="/kosten" onClick={() => setIsMenuOpen(false)}>Kosten</Link>
+                  <Link to="/reviews" onClick={() => setIsMenuOpen(false)}>Reviews</Link>
+                  <Link to="/actueel" onClick={() => setIsMenuOpen(false)}>Actueel</Link>
+                  <Link to="/blogs" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
                 </div>
               </div>
             )}
@@ -79,7 +80,7 @@ function Navigation() {
             </button>
           </div>
 
-          <a href="#contact" className="btn btn-primary nav-contact-btn">Contact</a>
+          <Link to="/contact" className="btn btn-primary nav-contact-btn" onClick={() => setIsMenuOpen(false)}>Contact</Link>
         </div>
       </div>
     </nav>

@@ -1,12 +1,42 @@
 .actueel-page {
   flex: 1;
-  padding: 80px 0;
+  padding: 80px 0 100px;
   background-color: var(--color-background);
+}
+
+.actueel-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.actueel-highlight {
+  background: linear-gradient(135deg, var(--color-background-soft) 0%, rgba(247, 243, 238, 0.5) 100%);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-medium);
+  border-left: 5px solid var(--color-primary);
+}
+
+.actueel-text {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.9;
+  color: var(--color-text-dark);
+  margin: 0;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
   .actueel-page {
     padding: 60px 0;
+  }
+
+  .actueel-highlight {
+    padding: 30px 20px;
+  }
+
+  .actueel-text {
+    font-size: 16px;
   }
 }
 

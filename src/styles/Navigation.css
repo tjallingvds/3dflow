@@ -37,7 +37,7 @@
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 28px;
 }
 
 .nav-menu > a:first-child,
@@ -47,7 +47,7 @@
 
 .nav-link {
   font-family: var(--font-sans);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--color-text-primary);
   text-decoration: none;

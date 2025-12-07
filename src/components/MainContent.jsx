@@ -6,7 +6,6 @@ function MainContent() {
   return (
     <section className="main-content">
       <div className="main-content-container">
-        <h2 className="content-section-title">Over Brainspotting</h2>
         <div className="content-highlight">
           <p className="content-paragraph-large">
             Wat je raakt of belemmert, wordt niet zozeer bepaald door wat er nú gebeurt, maar 
@@ -18,7 +17,7 @@ function MainContent() {
             ongekende prestatieverbetering!
           </p>
           <div className="content-cta">
-            <Link to="/hoe-werkt-het" className="btn btn-primary">Lees meer over hoe het werkt</Link>
+            <Link to="/brainspotting" className="btn btn-primary">Lees meer over dit perspectief</Link>
           </div>
         </div>
       </div>

@@ -31,6 +31,24 @@
   margin: 0 0 20px 0;
 }
 
+.brainspotting-highlight {
+  background: linear-gradient(135deg, var(--color-background-soft) 0%, rgba(247, 243, 238, 0.5) 100%);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-medium);
+  border-left: 5px solid var(--color-primary);
+  margin: 40px 0;
+}
+
+.brainspotting-highlight .section-heading {
+  margin-top: 0;
+}
+
+.brainspotting-highlight .section-text {
+  font-size: 17px;
+  line-height: 1.9;
+}
+
 .reference-note {
   font-family: var(--font-sans);
   font-size: 15px;
@@ -72,5 +90,9 @@
 
   .reference-note {
     font-size: 14px;
+  }
+
+  .brainspotting-highlight {
+    padding: 30px 20px;
   }
 }

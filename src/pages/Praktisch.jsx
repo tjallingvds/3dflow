@@ -81,7 +81,7 @@ function Praktisch() {
             <p>
               Neem contact op voor een gratis kennismaking via zoom of om direct een afspraak te maken.
             </p>
-            <Link to="/#contact" className="btn btn-outline">Contact</Link>
+            <Link to="/contact" className="btn btn-outline">Contact</Link>
           </div>
         </div>
       </section>

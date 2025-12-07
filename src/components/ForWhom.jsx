@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/ForWhom.css'
 
 function ForWhom() {
@@ -24,9 +25,6 @@ function ForWhom() {
             van de pijn eronder, dus is meteen bij de kern, precies waar we moeten zijn om met brainspotting 
             te kunnen reguleren, helen en de natuurlijke groei weer op gang te brengen.
           </p>
-          <div className="cta-button-wrapper">
-            <a href="#contact" className="btn btn-primary">Neem contact op</a>
-          </div>
         </div>
 
         <div className="expandable-sections">
@@ -58,7 +56,7 @@ function ForWhom() {
               Iedere situatie is anders. Ik bespreek graag met je wat jou belemmert en / of wat jij zou 
               willen bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <a href="#contact" className="btn btn-outline btn-small">Gratis kennismaking</a>
+            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -83,7 +81,7 @@ function ForWhom() {
               Iedere situatie is anders. Ik bespreek het graag met je. Neem contact op voor een gratis 
               kennismaking.
             </p>
-            <a href="#contact" className="btn btn-outline btn-small">Gratis kennismaking</a>
+            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -105,7 +103,7 @@ function ForWhom() {
               Iedere situatie is anders. Ik bespreek graag met je wat jou belemmert en wat jij zou willen 
               bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <a href="#contact" className="btn btn-outline btn-small">Gratis kennismaking</a>
+            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -137,7 +135,7 @@ function ForWhom() {
               graag met je wat jij zou willen bereiken en waar jij dan tegenaan loopt. Neem contact op voor een 
               gratis kennismaking.
             </p>
-            <a href="#contact" className="btn btn-outline btn-small">Gratis kennismaking</a>
+            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -160,7 +158,7 @@ function ForWhom() {
               Iedere vraag is net weer een beetje anders. Ik bespreek graag met je waar jij tegenaan loopt 
               en wat je zou willen bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <a href="#contact" className="btn btn-outline btn-small">Gratis kennismaking</a>
+            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
           </ExpandableItem>
         </div>
       </div>

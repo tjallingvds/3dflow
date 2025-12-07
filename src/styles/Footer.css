@@ -92,6 +92,13 @@
   font-style: normal;
 }
 
+.footer-address-text {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
 .footer-social {
   display: flex;
   gap: 15px;

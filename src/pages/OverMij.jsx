@@ -66,7 +66,7 @@ function OverMij() {
               </p>
 
               <p className="page-paragraph linkedin-note">
-                Voor professionele opleidingen en actuele ontwikkelingen: zie LinkedIn.
+                Voor professionele opleidingen en actuele ontwikkelingen: zie <a href="https://www.linkedin.com/in/irene-van-der-schaar/" target="_blank" rel="noopener noreferrer" className="linkedin-link">LinkedIn</a>.
               </p>
             </div>
           </div>

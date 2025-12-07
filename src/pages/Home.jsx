@@ -15,8 +15,8 @@ function Home() {
       <Navigation />
       <Banner />
       <Hero />
-      <Philosophy />
       <MainContent />
+      <Philosophy />
       <AboutMe />
       <ForWhom />
       <Quote />

@@ -14,10 +14,12 @@ function Actueel() {
         <div className="page-container">
           <h1 className="page-title">Actueel</h1>
           
-          <div className="page-content">
-            <p className="page-paragraph">
-              Actuele updates komen hier beschikbaar.
-            </p>
+          <div className="actueel-content">
+            <div className="actueel-highlight">
+              <p className="actueel-text">
+                Van zaterdag 7 tot en met zondag 15 maart, zal ik verschillende webinars geven over de hier onder genoemde thema's. Houd de website in de gaten voor details.
+              </p>
+            </div>
           </div>
         </div>
       </section>

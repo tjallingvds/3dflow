@@ -73,6 +73,19 @@
   margin-top: 20px;
 }
 
+.linkedin-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-smooth);
+  border-bottom: 1px solid transparent;
+}
+
+.linkedin-link:hover {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary-dark);
+}
+
 @media (max-width: 968px) {
   .page-content {
     grid-template-columns: 1fr;

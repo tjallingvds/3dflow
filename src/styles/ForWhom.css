@@ -34,7 +34,7 @@
 
 
 .intro-text {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .for-whom-paragraph {
@@ -42,7 +42,7 @@
   font-size: 16px;
   line-height: 1.9;
   color: var(--color-text-medium);
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .cta-button-wrapper {
@@ -52,7 +52,8 @@
 .expandable-sections {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 16px;
+  margin-top: 60px;
 }
 
 .expandable-item {
@@ -150,11 +151,15 @@
   }
 
   .intro-text {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   .for-whom-paragraph {
     font-size: 15px;
+  }
+
+  .expandable-sections {
+    margin-top: 40px;
   }
 
   .expandable-header {

@@ -9,9 +9,6 @@ function Hero() {
           <h1 className="hero-title">
             De fundamentele èn snelste weg zowel voor prestatieverbetering als voor alles wat je belemmert, is verwerking.
           </h1>
-          <a href="#contact" className="btn btn-outline hero-cta">
-            Je bent welkom!
-          </a>
         </div>
         <div className="hero-image-container">
           <div className="hero-image-wrapper">

@@ -14,6 +14,43 @@ function Kosten() {
       <section className="kosten-page">
         <div className="page-container">
           <h1 className="page-title">Kosten</h1>
+          
+          <div className="pricing-section">
+            <h2 className="pricing-heading">Privé</h2>
+            <p className="pricing-text">
+              Een sessie van anderhalf uur kost €185 (incl. 21% BTW). 
+              In overleg zijn ook sessies van een uur mogelijk, dat is dan €130 (incl. 21% BTW).
+            </p>
+          </div>
+
+          <div className="pricing-section">
+            <h2 className="pricing-heading">Zakelijk</h2>
+            <p className="pricing-text">
+              Als je de kosten zakelijk kan nemen, doordat je een eigen bedrijf hebt of zzp bent, 
+              is het tarief €185 excl. BTW per sessie van anderhalf uur.
+            </p>
+          </div>
+
+          <div className="pricing-section">
+            <h2 className="pricing-heading">Via werkgever</h2>
+            <p className="pricing-text">
+              Veel werkgevers hebben budgetten voor coaching of reïntegratie. In dat geval stuur ik een 
+              offerte aan de werkgever en geldt een ander tarief.
+            </p>
+          </div>
+
+          <div className="pricing-section small">
+            <h2 className="pricing-heading">Buiten kantooruren</h2>
+            <p className="pricing-text">
+              In uitzonderlijke gevallen is het mogelijk om buiten kantooruren af te spreken. Daarvoor geldt dan een ander tarief.
+            </p>
+          </div>
+
+          <div className="intro-note">
+            <p>De kennismaking via zoom is altijd gratis.</p>
+          </div>
+
+          <div className="divider"></div>
 
           <div className="sessions-section">
             <h2 className="sessions-heading">Hoeveel sessies heb ik nodig?</h2>
@@ -44,46 +81,8 @@ function Kosten() {
             </p>
           </div>
 
-          <div className="divider"></div>
-
-          <div className="intro-note">
-            <p>De kennismaking via zoom is altijd gratis.</p>
-          </div>
-          
-          <div className="pricing-section">
-            <h2 className="pricing-heading">Privé</h2>
-            <p className="pricing-text">
-              Een sessie van anderhalf uur kost €185 (incl. 21% BTW). 
-              In overleg zijn ook sessies van een uur mogelijk, dat is dan €130 (incl. 21% BTW).
-            </p>
-          </div>
-
-          <div className="pricing-section">
-            <h2 className="pricing-heading">Zakelijk</h2>
-            <p className="pricing-text">
-              Als je de kosten zakelijk kan nemen, doordat je een eigen bedrijf hebt of zzp bent, 
-              is het tarief €185 excl. BTW per sessie van anderhalf uur.
-            </p>
-          </div>
-
-          <div className="pricing-section">
-            <h2 className="pricing-heading">Via werkgever</h2>
-            <p className="pricing-text">
-              Veel werkgevers hebben budgetten voor coaching of reïntegratie. In dat geval stuur ik een 
-              offerte aan de werkgever en geldt een ander tarief.
-            </p>
-          </div>
-
-          <div className="pricing-section small">
-            <h2 className="pricing-heading">Avond en weekend</h2>
-            <p className="pricing-text">
-              's Avonds en in het weekend geldt een toeslag van €50 per sessie.
-            </p>
-          </div>
-
           <div className="contact-note">
-            <p>Vragen over de kosten? Neem contact op voor een gratis kennismaking.</p>
-            <Link to="/#contact" className="btn btn-outline">Contact</Link>
+            <Link to="/contact" className="btn btn-primary contact-btn">Contact</Link>
           </div>
         </div>
       </section>
