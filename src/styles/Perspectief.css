@@ -19,14 +19,19 @@
   text-align: center;
 }
 
-.page-content {
+.perspectief-page .page-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 0;
 }
 
-.content-section {
+.perspectief-page .content-section {
   padding: 0;
+  margin-bottom: 25px;
+}
+
+.perspectief-page .content-section:last-of-type {
+  margin-bottom: 50px;
 }
 
 .page-paragraph {
