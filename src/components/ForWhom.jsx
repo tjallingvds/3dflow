@@ -38,7 +38,7 @@ function ForWhom() {
               paniek, niet lekker in je vel zitten, vastlopen, vermoeidheid, geen energie, depressie, 
               somberheid, zorgen maken, piekeren, slecht slapen, boosheid, niet voelen, niet weten wat 
               je wil, gebrek aan zingeving, overweldigende gebeurtenissen zoals verlies van werk, 
-              gezondheid, scheiding, negatieve zelfovertuigingen, zelf ondermijnend gedrag, 
+              gezondheid, scheiding, (als je kind een) eetstoornis (heeft), negatieve zelfovertuigingen, zelf ondermijnend gedrag, 
               persoonlijkheidsproblematiek, relatieproblemen, seksuele thema's, trauma, traumatische 
               gebeurtenis, schooltrauma, problematische hechting, eenzaamheid, verslaving, dwangstoornis, 
               kort lontje, verdriet, rouw, hooggevoeligheid, issues rondom hb of uhb, autisme, 
@@ -50,13 +50,13 @@ function ForWhom() {
             </p>
             <p>
               Bij kinderen kan een en ander zich ook uiten als woedebuien, vastlopen, gedragsproblemen 
-              of bijvoorbeeld niet meer naar school willen.
+              of bijvoorbeeld niet meer naar school willen of kunnen.
             </p>
             <p>
               Iedere situatie is anders. Ik bespreek graag met je wat jou belemmert en / of wat jij zou 
               willen bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
+            <Link to="/contact" className="btn btn-outline btn-small">Contact</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -81,7 +81,7 @@ function ForWhom() {
               Iedere situatie is anders. Ik bespreek het graag met je. Neem contact op voor een gratis 
               kennismaking.
             </p>
-            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
+            <Link to="/contact" className="btn btn-outline btn-small">Contact</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -103,7 +103,7 @@ function ForWhom() {
               Iedere situatie is anders. Ik bespreek graag met je wat jou belemmert en wat jij zou willen 
               bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
+            <Link to="/contact" className="btn btn-outline btn-small">Contact</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -135,7 +135,7 @@ function ForWhom() {
               graag met je wat jij zou willen bereiken en waar jij dan tegenaan loopt. Neem contact op voor een 
               gratis kennismaking.
             </p>
-            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
+            <Link to="/contact" className="btn btn-outline btn-small">Contact</Link>
           </ExpandableItem>
 
           <ExpandableItem
@@ -158,7 +158,7 @@ function ForWhom() {
               Iedere vraag is net weer een beetje anders. Ik bespreek graag met je waar jij tegenaan loopt 
               en wat je zou willen bereiken. Neem contact op voor een gratis kennismaking.
             </p>
-            <Link to="/contact" className="btn btn-outline btn-small">Gratis kennismaking</Link>
+            <Link to="/contact" className="btn btn-outline btn-small">Contact</Link>
           </ExpandableItem>
         </div>
       </div>

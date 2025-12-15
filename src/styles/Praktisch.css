@@ -35,19 +35,13 @@
   margin-bottom: 0;
 }
 
-.contact-note {
+.contact-section {
   max-width: 900px;
   margin: 60px auto 0 auto;
   padding: 0 40px;
   text-align: center;
-}
-
-.contact-note p {
-  font-family: var(--font-sans);
-  font-size: 17px;
-  line-height: 1.7;
-  color: var(--color-text-dark);
-  margin: 0 0 25px 0;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 640px) {
@@ -68,12 +62,8 @@
     font-size: 15px;
   }
 
-  .contact-note {
+  .contact-section {
     padding: 0 20px;
     margin-top: 50px;
-  }
-
-  .contact-note p {
-    font-size: 16px;
   }
 }

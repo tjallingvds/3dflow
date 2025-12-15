@@ -57,7 +57,7 @@ function Navigation() {
                   <Link to="/praktisch" onClick={() => setIsMenuOpen(false)}>Praktisch</Link>
                   <Link to="/kosten" onClick={() => setIsMenuOpen(false)}>Kosten</Link>
                   <Link to="/reviews" onClick={() => setIsMenuOpen(false)}>Reviews</Link>
-                  <Link to="/actueel" onClick={() => setIsMenuOpen(false)}>Actueel</Link>
+                  <Link to="/actueel" onClick={() => setIsMenuOpen(false)}>Lezingen</Link>
                   <Link to="/blogs" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
                 </div>
               </div>

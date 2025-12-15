@@ -19,7 +19,7 @@ function Praktisch() {
             <h2 className="section-heading">Snelle en ruime beschikbaarheid</h2>
             <p className="section-text">
               Ik ben over het algemeen op korte termijn beschikbaar. Afspraken kunnen iedere werkdag 
-              plaatsvinden en desgewenst ook 's avonds en in het weekend.
+              plaatsvinden en in uitzonderlijke gevallen in overleg ook buiten kantooruren.
             </p>
           </div>
 
@@ -69,20 +69,6 @@ function Praktisch() {
             </p>
           </div>
 
-          <div className="content-section">
-            <h2 className="section-heading">Algemene voorwaarden en Privacy</h2>
-            <p className="section-text">
-              Op het intakeformulier wordt gevraagd of je akkoord gaat met de algemene voorwaarden en het 
-              privacyreglement. Deze zijn hier te lezen.
-            </p>
-          </div>
-
-          <div className="contact-note">
-            <p>
-              Neem contact op voor een gratis kennismaking via zoom of om direct een afspraak te maken.
-            </p>
-            <Link to="/contact" className="btn btn-outline">Contact</Link>
-          </div>
         </div>
       </section>
 

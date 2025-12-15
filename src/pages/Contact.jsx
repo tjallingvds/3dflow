@@ -36,7 +36,7 @@ function Contact() {
           
           <div className="contact-intro">
             <p className="intro-text">
-              Voor vragen of het maken van een afspraak kunt u mij bereiken via onderstaande gegevens. 
+              Voor vragen of het maken van een afspraak kan je mij bereiken via onderstaande gegevens. 
               De kennismaking via zoom is altijd gratis.
             </p>
           </div>
@@ -56,8 +56,8 @@ function Contact() {
               <div className="contact-detail">
                 <h3>Locatie</h3>
                 <p className="contact-address">
-                  Rotterdam<br />
-                  Online en in Rotterdam
+                  Theo van Doesburgstraat 1<br />
+                  3059PA Rotterdam
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ function Contact() {
               <h2 className="showcase-heading">Praktijk</h2>
               <p className="showcase-description">
                 Afspraken kunnen naar keuze online of in mijn praktijk in Rotterdam plaatsvinden. 
-                Mijn praktijk biedt een rustige en veilige omgeving voor uw sessies.
+                Mijn praktijk biedt een rustige en veilige omgeving voor de sessies.
               </p>
               
               <div className="carousel-container">

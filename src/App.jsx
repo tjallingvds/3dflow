@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import OverMij from './pages/OverMij'
 import Brainspotting from './pages/Brainspotting'
+import Perspectief from './pages/Perspectief'
 import Praktisch from './pages/Praktisch'
 import Kosten from './pages/Kosten'
 import Reviews from './pages/Reviews'
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/over-mij" element={<OverMij />} />
         <Route path="/brainspotting" element={<Brainspotting />} />
+        <Route path="/perspectief" element={<Perspectief />} />
         <Route path="/praktisch" element={<Praktisch />} />
         <Route path="/kosten" element={<Kosten />} />
         <Route path="/reviews" element={<Reviews />} />

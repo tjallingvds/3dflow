@@ -15,7 +15,7 @@ function Brainspotting() {
           <h1 className="page-title">Brainspotting + ISTDP</h1>
           
           <div className="brainspotting-highlight">
-            <h2 className="section-heading">Perspectief</h2>
+            <h2 className="section-heading">Waarom Brainspotting?</h2>
             <p className="section-text">
               Het wordt steeds duidelijker dat de impact van onverwerkte ervaringen in alle delen van 
               het zenuwstelsel ligt opgeslagen.

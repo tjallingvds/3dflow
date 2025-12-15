@@ -20,12 +20,6 @@ function Philosophy() {
         </div>
 
         <div className="divider-line" style={{ height: '80px' }}></div>
-
-        <div className="philosophy-welcome">
-          <h2 className="welcome-text">Je bent welkom!</h2>
-        </div>
-
-        <div className="divider-line" style={{ height: '80px' }}></div>
       </div>
     </section>
   )
