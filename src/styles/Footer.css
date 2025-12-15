@@ -128,7 +128,30 @@
   font-family: var(--font-sans);
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
-  margin: 0;
+  margin: 0 0 15px 0;
+}
+
+.footer-legal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.footer-legal-links .footer-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
+.footer-legal-links .footer-link:hover {
+  color: rgba(255, 255, 255, 0.9);
+  transform: none;
+}
+
+.footer-separator {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
 }
 
 @media (max-width: 768px) {

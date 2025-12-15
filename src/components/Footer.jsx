@@ -26,23 +26,21 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer-section">
-            <h4 className="footer-heading">Informatie</h4>
-            <div className="footer-links">
-              <Link to="/algemene-voorwaarden" className="footer-link">
-                Algemene voorwaarden
-              </Link>
-              <Link to="/privacyverklaring" className="footer-link">
-                Privacyverklaring
-              </Link>
-            </div>
-          </div>
         </div>
 
         <div className="footer-bottom">
           <p className="footer-copyright">
             © 2025 3D Flow. Alle rechten voorbehouden.
           </p>
+          <div className="footer-legal-links">
+            <Link to="/algemene-voorwaarden" className="footer-link">
+              Algemene voorwaarden
+            </Link>
+            <span className="footer-separator">|</span>
+            <Link to="/privacyverklaring" className="footer-link">
+              Privacyverklaring
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
