@@ -58,37 +58,12 @@ function Navigation() {
         </button>
 
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-          <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.home}</Link>
-          {isHome ? (
-            <a href="#over-mij" className="nav-link" onClick={(e) => {
-              e.preventDefault()
-              setIsMenuOpen(false)
-              const element = document.querySelector('#over-mij')
-              if (element) {
-                const offset = 100
-                const elementPosition = element.getBoundingClientRect().top
-                const offsetPosition = elementPosition + window.pageYOffset - offset
-                window.scrollTo({ top: offsetPosition, behavior: 'smooth' })
-              }
-            }}>{t.aboutMe}</a>
-          ) : (
-            <Link to="/over-mij" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.aboutMe}</Link>
-          )}
-          {isHome ? (
-            <a href="#voor-wie" className="nav-link" onClick={(e) => {
-              e.preventDefault()
-              setIsMenuOpen(false)
-              const element = document.querySelector('#voor-wie')
-              if (element) {
-                const offset = 100
-                const elementPosition = element.getBoundingClientRect().top
-                const offsetPosition = elementPosition + window.pageYOffset - offset
-                window.scrollTo({ top: offsetPosition, behavior: 'smooth' })
-              }
-            }}>{t.forWhom}</a>
-          ) : (
-            <Link to="/#voor-wie" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.forWhom}</Link>
-          )}
+          <Link to="/" className="nav-link" onClick={() => {
+            setIsMenuOpen(false)
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}>{t.home}</Link>
+          <Link to="/over-mij" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.aboutMe}</Link>
+          <Link to="/#voor-wie" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.forWhom}</Link>
           <Link to="/brainspotting" className="nav-link" onClick={() => setIsMenuOpen(false)}>{t.brainspotting}</Link>
           
           <div 

@@ -223,10 +223,16 @@
     transition: left 0.3s ease;
     gap: 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
   }
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-menu > a:first-child,
+  .nav-menu > .nav-link:first-child {
+    margin-left: 0;
   }
 
   .dropdown-menu {
