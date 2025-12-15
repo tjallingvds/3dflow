@@ -27,7 +27,7 @@ function Navigation() {
     EN: {
       home: 'Home',
       aboutMe: 'About me',
-      forWhom: 'For whom?',
+      forWhom: 'For who?',
       brainspotting: 'Brainspotting + ISTDP',
       learnMore: 'Learn more:',
       practical: 'Practical info',

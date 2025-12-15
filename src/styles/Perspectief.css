@@ -31,7 +31,7 @@
 }
 
 .perspectief-page .content-section:last-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .page-paragraph {
@@ -42,12 +42,13 @@
   margin: 0;
 }
 
-.coregulation-box {
+.perspectief-page .coregulation-box {
   background: linear-gradient(135deg, var(--color-background-soft) 0%, rgba(247, 243, 238, 0.5) 100%);
   padding: 50px;
   border-radius: 16px;
   box-shadow: var(--shadow-medium);
   border-left: 5px solid var(--color-primary);
+  margin-top: 60px;
 }
 
 .box-title {

@@ -47,7 +47,7 @@ function ForWhom() {
       contact: 'Contact'
     },
     EN: {
-      title: 'For whom?',
+      title: 'For who?',
       intro: 'I work with adults and children of all ages, with all kinds of symptoms and blockages - with or without medical diagnoses - and for performance enhancement. Whatever your starting point, both will happen simultaneously, because the process takes place on a deeper physical level that is not defined by language or thought. The combination with ISTDP has the effect that resistance, defense, or rigid coping patterns - which in other treatments are often seen as obstacles - are not barriers here, but instead precisely lead the way to the problem and the solution. Every form of resistance is an imprint of the pain underneath. That means it immediately takes us to the core - the very place where Brainspotting can regulate, heal, and restart the body\'s natural growth.',
       sections: {
         wat: {
