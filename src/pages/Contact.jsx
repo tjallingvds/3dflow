@@ -56,7 +56,7 @@ function Contact() {
                 <h3>Locatie</h3>
                 <p className="contact-address">
                   Theo van Doesburgstraat 1<br />
-                  3059PA Rotterdam
+                  3059 PA Rotterdam
                 </p>
               </div>
             </div>
