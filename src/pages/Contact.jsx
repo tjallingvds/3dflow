@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import Navigation from '../components/Navigation'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
+import { useLanguage } from '../contexts/LanguageContext'
 import '../styles/Contact.css'
 
 function Contact() {
+  const { language } = useLanguage()
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const images = [
@@ -24,6 +26,35 @@ function Contact() {
     setCurrentSlide(index);
   };
 
+  const translations = {
+    NL: {
+      title: 'Contact',
+      intro: 'Voor vragen of het maken van een afspraak kan je mij bereiken via onderstaande gegevens. De kennismaking via zoom is altijd gratis.',
+      email: 'Email',
+      phone: 'Telefoon',
+      location: 'Locatie',
+      practice: 'Praktijk',
+      practiceDesc: 'Afspraken kunnen naar keuze online of in mijn praktijk in Rotterdam plaatsvinden. Mijn praktijk biedt een rustige en veilige omgeving voor de sessies.',
+      prev: 'Vorige foto',
+      next: 'Volgende foto',
+      goto: 'Ga naar foto'
+    },
+    EN: {
+      title: 'Contact',
+      intro: 'Voor vragen of het maken van een afspraak kan je mij bereiken via onderstaande gegevens. De kennismaking via zoom is altijd gratis.',
+      email: 'Email',
+      phone: 'Telefoon',
+      location: 'Locatie',
+      practice: 'Praktijk',
+      practiceDesc: 'Afspraken kunnen naar keuze online of in mijn praktijk in Rotterdam plaatsvinden. Mijn praktijk biedt een rustige en veilige omgeving voor de sessies.',
+      prev: 'Vorige foto',
+      next: 'Volgende foto',
+      goto: 'Ga naar foto'
+    }
+  }
+
+  const t = translations[language]
+
   return (
     <div className="page">
       <Navigation />
@@ -31,29 +62,26 @@ function Contact() {
       
       <section className="contact-page">
         <div className="contact-container">
-          <h1 className="page-title">Contact</h1>
+          <h1 className="page-title">{t.title}</h1>
           
           <div className="contact-intro">
-            <p className="intro-text">
-              Voor vragen of het maken van een afspraak kan je mij bereiken via onderstaande gegevens. 
-              De kennismaking via zoom is altijd gratis.
-            </p>
+            <p className="intro-text">{t.intro}</p>
           </div>
 
           <div className="contact-layout">
             <div className="contact-info-card">
               <div className="contact-detail">
-                <h3>Email</h3>
+                <h3>{t.email}</h3>
                 <a href="mailto:mail@3dflow.nl" className="contact-link">mail@3dflow.nl</a>
               </div>
               
               <div className="contact-detail">
-                <h3>Telefoon</h3>
+                <h3>{t.phone}</h3>
                 <a href="tel:+31628406844" className="contact-link">06 28406844</a>
               </div>
               
               <div className="contact-detail">
-                <h3>Locatie</h3>
+                <h3>{t.location}</h3>
                 <p className="contact-address">
                   Theo van Doesburgstraat 1<br />
                   3059 PA Rotterdam
@@ -62,15 +90,12 @@ function Contact() {
             </div>
 
             <div className="practice-showcase">
-              <h2 className="showcase-heading">Praktijk</h2>
-              <p className="showcase-description">
-                Afspraken kunnen naar keuze online of in mijn praktijk in Rotterdam plaatsvinden. 
-                Mijn praktijk biedt een rustige en veilige omgeving voor de sessies.
-              </p>
+              <h2 className="showcase-heading">{t.practice}</h2>
+              <p className="showcase-description">{t.practiceDesc}</p>
               
               <div className="carousel-container">
                 <div className="carousel-wrapper">
-                  <button className="carousel-button prev" onClick={prevSlide} aria-label="Vorige foto">
+                  <button className="carousel-button prev" onClick={prevSlide} aria-label={t.prev}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -91,7 +116,7 @@ function Contact() {
                     ))}
                   </div>
                   
-                  <button className="carousel-button next" onClick={nextSlide} aria-label="Volgende foto">
+                  <button className="carousel-button next" onClick={nextSlide} aria-label={t.next}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -104,7 +129,7 @@ function Contact() {
                       key={index}
                       className={`dot ${index === currentSlide ? 'active' : ''}`}
                       onClick={() => goToSlide(index)}
-                      aria-label={`Ga naar foto ${index + 1}`}
+                      aria-label={`${t.goto} ${index + 1}`}
                     />
                   ))}
                 </div>
