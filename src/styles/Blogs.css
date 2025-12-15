@@ -1,12 +1,114 @@
 .blogs-page {
   flex: 1;
-  padding: 80px 0;
+  padding: 80px 0 100px;
   background-color: var(--color-background);
 }
+
+.blogs-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.linkedin-intro {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--color-text-dark);
+  margin: 0 0 40px 0;
+  line-height: 1.8;
+}
+
+.linkedin-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-smooth);
+  border-bottom: 1px solid transparent;
+}
+
+.linkedin-link:hover {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary-dark);
+}
+
+.blog-post {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-subtle);
+  border-left: 4px solid var(--color-primary);
+  transition: var(--transition-smooth);
+}
+
+.blog-post:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+.blog-title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+}
+
+.blog-meta {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--color-text-light);
+  margin: 0 0 15px 0;
+  font-style: italic;
+}
+
+.blog-description {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--color-text-dark);
+  margin: 0 0 20px 0;
+  line-height: 1.7;
+}
+
+.blog-link {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-smooth);
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+}
+
+.blog-link:hover {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary-dark);
+}
+
 
 @media (max-width: 640px) {
   .blogs-page {
     padding: 60px 0;
+  }
+
+  .blogs-content {
+    gap: 35px;
+  }
+
+  .blog-post {
+    padding: 30px 20px;
+  }
+
+  .blog-title {
+    font-size: 20px;
+  }
+
+  .linkedin-intro {
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 }
 

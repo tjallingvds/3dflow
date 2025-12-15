@@ -8,9 +8,8 @@ function Contact() {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const images = [
-    { id: 1, label: 'Praktijk interieur' },
-    { id: 2, label: 'Praktijk exterieur' },
-    { id: 3, label: 'Wachtruimte' }
+    { id: 1, src: '/praktijk-1.jpeg', label: 'Praktijk' },
+    { id: 2, src: '/praktijk-2.jpeg', label: 'Praktijk' }
   ];
 
   const nextSlide = () => {
@@ -83,9 +82,11 @@ function Contact() {
                         key={image.id}
                         className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}
                       >
-                        <div className="image-placeholder">
-                          <span>{image.label}</span>
-                        </div>
+                        <img 
+                          src={image.src} 
+                          alt={image.label} 
+                          className="practice-image"
+                        />
                       </div>
                     ))}
                   </div>

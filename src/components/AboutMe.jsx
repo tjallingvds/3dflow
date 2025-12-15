@@ -10,9 +10,11 @@ function AboutMe() {
         
         <div className="about-content">
           <div className="about-image-wrapper">
-            <div className="about-image-placeholder">
-              <span className="image-text">Foto</span>
-            </div>
+            <img 
+              src="/irene-photo.jpg" 
+              alt="Irene van der Schaar" 
+              className="about-image"
+            />
           </div>
 
           <div className="about-text">
