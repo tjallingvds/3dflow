@@ -49,7 +49,7 @@ function Navigation() {
         </Link>
 
         <button 
-          className="nav-mobile-toggle"
+          className={`nav-mobile-toggle ${isMenuOpen ? 'active' : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span></span>
