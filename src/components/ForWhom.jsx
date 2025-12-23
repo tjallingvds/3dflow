@@ -44,7 +44,8 @@ function ForWhom() {
           p2: 'Iedere vraag is net weer een beetje anders. Ik bespreek graag met je waar jij tegenaan loopt en wat je zou willen bereiken. Neem contact op voor een gratis kennismaking.'
         }
       },
-      contact: 'Contact'
+      contact: 'Contact',
+      ervaringen: 'Ervaringen'
     },
     EN: {
       title: 'For who?',
@@ -78,7 +79,8 @@ function ForWhom() {
           p2: 'Every situation is different. I\'m happy to discuss what you\'re facing and what you\'d like to achieve. Contact me for a free introductory meeting.'
         }
       },
-      contact: 'Contact'
+      contact: 'Contact',
+      ervaringen: 'Experiences'
     }
   }
 
@@ -104,7 +106,10 @@ function ForWhom() {
             <p>{t.sections.wat.p1}</p>
             <p>{t.sections.wat.p2}</p>
             <p>{t.sections.wat.p3}</p>
-            <Link to="/contact" className="btn btn-outline btn-small">{t.contact}</Link>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link to="/contact" className="btn btn-primary btn-small">{t.contact}</Link>
+              <Link to="/reviews" className="btn btn-outline btn-small">{t.ervaringen}</Link>
+            </div>
           </ExpandableItem>
 
           <ExpandableItem
@@ -114,7 +119,10 @@ function ForWhom() {
           >
             <p>{t.sections.ouders.p1}</p>
             <p>{t.sections.ouders.p2}</p>
-            <Link to="/contact" className="btn btn-outline btn-small">{t.contact}</Link>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link to="/contact" className="btn btn-primary btn-small">{t.contact}</Link>
+              <Link to="/reviews" className="btn btn-outline btn-small">{t.ervaringen}</Link>
+            </div>
           </ExpandableItem>
 
           <ExpandableItem
@@ -124,7 +132,10 @@ function ForWhom() {
           >
             <p>{t.sections.hoogbegaafd.p1}</p>
             <p>{t.sections.hoogbegaafd.p2}</p>
-            <Link to="/contact" className="btn btn-outline btn-small">{t.contact}</Link>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link to="/contact" className="btn btn-primary btn-small">{t.contact}</Link>
+              <Link to="/reviews" className="btn btn-outline btn-small">{t.ervaringen}</Link>
+            </div>
           </ExpandableItem>
 
           <ExpandableItem
@@ -135,7 +146,10 @@ function ForWhom() {
             <p>{t.sections.prestatie.p1}</p>
             <p>{t.sections.prestatie.p2}</p>
             <p>{t.sections.prestatie.p3}</p>
-            <Link to="/contact" className="btn btn-outline btn-small">{t.contact}</Link>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link to="/contact" className="btn btn-primary btn-small">{t.contact}</Link>
+              <Link to="/reviews" className="btn btn-outline btn-small">{t.ervaringen}</Link>
+            </div>
           </ExpandableItem>
 
           <ExpandableItem
@@ -145,7 +159,10 @@ function ForWhom() {
           >
             <p>{t.sections.coaching.p1}</p>
             <p>{t.sections.coaching.p2}</p>
-            <Link to="/contact" className="btn btn-outline btn-small">{t.contact}</Link>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link to="/contact" className="btn btn-primary btn-small">{t.contact}</Link>
+              <Link to="/reviews" className="btn btn-outline btn-small">{t.ervaringen}</Link>
+            </div>
           </ExpandableItem>
         </div>
       </div>
@@ -153,7 +170,31 @@ function ForWhom() {
   )
 }
 
-function ExpandableItem({ title, children, isOpen, onClick }) {
+function ExpandableItem({ title, children, isOpen, onClick, isLink, linkTo }) {
+  if (isLink && linkTo) {
+    return (
+      <Link to={linkTo} className="expandable-item expandable-link">
+        <div className="expandable-header">
+          <h3 className="expandable-title">{title}</h3>
+          <svg 
+            className="expandable-icon" 
+            width="20" 
+            height="20" 
+            viewBox="0 0 20 20" 
+            fill="none"
+          >
+            <path 
+              d="M7.5 5L12.5 10L7.5 15" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round"
+            />
+          </svg>
+        </div>
+      </Link>
+    )
+  }
+
   return (
     <div className={`expandable-item ${isOpen ? 'open' : ''}`}>
       <button className="expandable-header" onClick={onClick}>

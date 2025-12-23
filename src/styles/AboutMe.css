@@ -81,6 +81,9 @@
 
 .about-cta {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 @media (max-width: 968px) {

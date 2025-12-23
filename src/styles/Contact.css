@@ -203,6 +203,19 @@
   display: block;
 }
 
+.map-container {
+  margin-top: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-medium);
+}
+
+.map-container iframe {
+  width: 100%;
+  display: block;
+  border: none;
+}
+
 @media (max-width: 968px) {
   .contact-layout {
     grid-template-columns: 1fr;

@@ -41,15 +41,15 @@ function Contact() {
     },
     EN: {
       title: 'Contact',
-      intro: 'Voor vragen of het maken van een afspraak kan je mij bereiken via onderstaande gegevens. De kennismaking via zoom is altijd gratis.',
+      intro: 'For questions or to make an appointment, you can contact me using the details below. The introductory meeting via Zoom is always free of charge.',
       email: 'Email',
-      phone: 'Telefoon',
-      location: 'Locatie',
-      practice: 'Praktijk',
-      practiceDesc: 'Afspraken kunnen naar keuze online of in mijn praktijk in Rotterdam plaatsvinden. Mijn praktijk biedt een rustige en veilige omgeving voor de sessies.',
-      prev: 'Vorige foto',
-      next: 'Volgende foto',
-      goto: 'Ga naar foto'
+      phone: 'Phone',
+      location: 'Location',
+      practice: 'Practice',
+      practiceDesc: 'Appointments can take place online or at my practice in Rotterdam, depending on your preference. My practice offers a calm and safe environment for the sessions.',
+      prev: 'Previous photo',
+      next: 'Next photo',
+      goto: 'Go to photo'
     }
   }
 
@@ -133,6 +133,16 @@ function Contact() {
                     />
                   ))}
                 </div>
+              </div>
+
+              <div className="map-container">
+                <iframe 
+                  width="100%" 
+                  height="350" 
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=4.592134952545167%2C51.98288791571%2C4.595251679420472%2C51.984225986515504&amp;layer=mapnik&amp;marker=51.9835569561094%2C4.593693315982819" 
+                  style={{ border: 'none' }}
+                  title="Practice location map"
+                ></iframe>
               </div>
             </div>
           </div>

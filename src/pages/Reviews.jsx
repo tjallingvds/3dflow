@@ -15,6 +15,10 @@ function Reviews() {
     },
     {
       id: 2,
+      text: "Via via hoorde ik over Brainspotting en Irene. Met name het feit dat je niet met specifieke  herinneringen aan de slag gaat, sprak me aan omdat daar een deel van mijn problematiek zit. Het waren heel bijzondere sessies. Het was een mooie ontdekkingsreis door mijn gevoel, waarbij mn lichaam zelf steeds wist waar het moest zijn. Stil en diep verdriet mocht worden losgelaten. De voornaamste reden voor behandeling was een heftige ziekteangst die veel invloed op mijn leven had. De sessies lijken me hiermee te hebben geholpen. Ik voel duidelijk meer rust in mijzelf. Zodanig dat ik me nu met mijn psychiater klaar voel jarenlange medicatie rustig  af te bouwen. Ik heb Irene ervaren als een zeer bekwame, prettige en integere therapeut. Als ik in de toekomst nog eens ondersteuning kan gebruiken, volg ik zeker weer dit pad."
+    },
+    {
+      id: 3,
       text: "De sessies met Irene hebben me inzichten gegeven in de diepere lagen van mij; mijn verdriet én geluk. Daar waar ik eerder een heldin was in het wegmaken van pijn en onverwerkt trauma, ontdek ik nu een manier die zorgt dat ik opgeslagen spanning wél zie, voel en ruimte durf te geven. Nu minder bezig zijn met het hoofd, wat altijd het gevaar van projectie, aannames en wegdenken met zich meebrengt. Veel meer luisteren naar de diepste lagen, opgeslagen in mijn eigen lijf. Ik hoef het alleen maar ruimte te geven om de spanning zelf op te lossen. En dat maakt dat ik nu ook geluk meer kans geef, want ook dát is een lading. Hoeveel geluk durf je aan? ☺️ Voor mij is het een nieuwe vorm van communicatie met mijzelf. Ik sta weer náást in plaats van tegenover mezelf. Zoveel liever, zoveel fijner!"
     },
     {
@@ -37,8 +41,12 @@ function Reviews() {
       text: "A friend referred me to Irene, and I knew nothing about the method beforehand. Irene guides you safely to the places where it hurts. I discovered that a real breakthrough requires going there — and staying there for a while. That's difficult, but you're not alone. Irene is right there with you and can quickly help you pace things when it becomes overwhelming. The treatment requires hardly any words, which I found refreshing; the real work happens beneath the words and thoughts. After about seven sessions of 1.5 hours, I felt significantly better."
     },
     {
-      id: 2,
+      id: 3,
       text: "The sessions with Irene have given me insights into the deeper layers of myself—both my sorrow and my joy. Where I once was an expert at pushing away pain and unresolved trauma, I am now discovering a way that allows me to see, feel, and give space to the tension stored inside me. It means being less caught up in my head—with all the risks of projecting, assuming, and thinking things away—and instead listening more closely to the deepest layers stored in my body. All I need to do is give them space, and the tension begins to resolve itself. That also means I'm giving joy more room, because joy, too, carries activation. How much joy are you willing to let in? ☺️ For me, this feels like a new way of communicating with myself. I now stand beside myself, instead of opposite myself. So much kinder, so much better."
+    },
+    {
+      id: 2,
+      text: "I heard about Brainspotting and Irene through word of mouth. What particularly appealed to me was the fact that you do not work with specific memories, as that is exactly where part of my difficulties lies. The sessions were very special. They felt like a beautiful journey of discovery through my inner world, during which my body appeared to know intuitively where it needed to be. Silent and deep sadness was finally able to be released. The main reason for seeking treatment was a severe health anxiety that had a major impact on my life. The sessions seem to have helped me greatly. I clearly feel more inner calm - to such an extent that I now feel ready, together with my psychiatrist, to gradually taper off medication that I have used for many years. I experienced Irene as a highly skilled, compassionate therapist with great integrity. If I could ever use support again in the future, I will certainly choose this path again."
     },
     {
       id: 3,
