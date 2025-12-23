@@ -80,7 +80,7 @@ function ForWhom() {
         }
       },
       contact: 'Contact',
-      ervaringen: 'Experiences'
+      ervaringen: 'Reviews'
     }
   }
 

@@ -44,7 +44,6 @@ function AboutMe() {
 
             <div className="about-cta">
               <Link to="/over-mij" className="btn btn-primary">{t.cta}</Link>
-              <Link to="/reviews" className="btn btn-outline">{t.reviews}</Link>
             </div>
           </div>
         </div>
