@@ -139,7 +139,7 @@ function Contact() {
                 <iframe 
                   width="100%" 
                   height="350" 
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=4.592134952545167%2C51.98288791571%2C4.595251679420472%2C51.984225986515504&amp;layer=mapnik&amp;marker=51.9835569561094%2C4.593693315982819" 
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=4.394531250000001%2C51.897893157451186%2C4.793472290039063%2C52.0691660526751&amp;layer=mapnik&amp;marker=51.98361147007201%2C4.594001770019531" 
                   style={{ border: 'none' }}
                   title="Practice location map"
                 ></iframe>

@@ -79,8 +79,6 @@ function Reviews() {
         <div className="page-container">
           <h1 className="page-title">{t.title}</h1>
           
-          <p className="reviews-intro">{t.intro}</p>
-          
           <div className="reviews-grid">
             {reviews.map((review) => (
               <div key={review.id} className="review-card">
