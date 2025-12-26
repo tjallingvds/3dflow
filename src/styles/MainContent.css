@@ -47,6 +47,11 @@
   margin-top: 30px;
 }
 
+.content-cta .btn {
+  flex: 1;
+  min-width: 0;
+}
+
 @media (max-width: 768px) {
   .main-content {
     padding: 60px 0;
@@ -68,5 +73,13 @@
   .content-paragraph-large {
     font-size: 16px;
     margin-bottom: 30px;
+  }
+
+  .content-cta {
+    flex-direction: column;
+  }
+
+  .content-cta .btn {
+    width: 100%;
   }
 }
