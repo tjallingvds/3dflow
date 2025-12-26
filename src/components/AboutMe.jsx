@@ -15,7 +15,7 @@ function AboutMe() {
     },
     EN: {
       title: 'About me',
-      text: 'I\'m Irene van der Schaar. My craft and expertise is fundamental human development - and everything that stands in its way. Through the powerful combination of Brainspotting + ISTDP, I help you meet whatever holds you back so that your system can continue the natural process of integration, release and growth - whether you\'re working through emotional pain or reaching for new levels in any kind of performance. As an experience expert profound giftedness, I bring a wide frame of reference and sensitivity that allow me to connect closely with any person\'s uniqueness. I am warm, perceptive, sharp and deeply engaged. I stay with you until we\'ve reached your goals.',
+      text: 'I\'m Irene van der Schaar. My craft and expertise is fundamental human development - and everything that stands in its way. Through the powerful combination of Brainspotting + ISTDP, I help you meet whatever holds you back so that your system can continue the natural process of integration, release and growth - whether you\'re working through emotional pain or reaching for new levels in any kind of performance. As an experience expert profound giftedness, I bring a wide frame of reference and sensitivity that allow me to connect closely with any person\'s uniqueness. I am warm, perceptive, sharp-minded and deeply engaged. I stay with you until we\'ve reached your goals.',
       cta: 'Learn more about me',
       reviews: 'Experiences'
     }

@@ -35,15 +35,15 @@ function Kosten() {
       businessTitle: 'Business / Self-employed',
       business: 'If you can claim sessions as business expense (e.g. you are self-employed), the rate is €185 excl. VAT per 90-minute session.',
       employerTitle: 'Employer-sponsored Coaching',
-      employer: 'Many employers have budgets for coaching or reintegration. In such cases I send a quotation to the employer and a different fee may apply.',
+      employer: 'Many employers have budgets for coaching or reintegration. In such cases I send a quotation to the employer and a different rate applies.',
       outsideHoursTitle: 'Outside office hours',
-      outsideHours: 'In exceptional cases, appointment outside business hours are possible, at a different fee.',
+      outsideHours: 'In exceptional cases, appointment outside business hours may be possible, at a different fee.',
       introNote: 'Introductory Zoom meeting is always free.',
       sessionsTitle: 'How many sessions will I need?',
       sessions1: 'That depends, of course, on what is holding you back, what lies underneath, how persistently it is being blocked, and other personal factors. Still, there are some general things to say about is.',
       sessions2: 'From the very first session, you experience how the method works. Brainspotting has an immediate effect, although on average it takes about three sessions before your mind stops dismissing the results as "coincidence" or attributes them to other factors. After three sessions, you\'ll sense for yourself how far you\'ve come, what may still be present, and when it feels "done." You\'ll notice this naturally.',
       sessions3: 'Ideally, therapy is complete when your symptoms have fully disappeared, you feel well, and you have the energy and confidence to continue on your own. For something like a phobia - where it is very clear when it is no longer present - this could take around seven sessions.',
-      sessions4: 'Even if, for whatever reason, you stop earlier, you will not be in the same place as where you started. For example, you may have moved from feeling stuck and disconnected from any form of help, to feeling things shift again and being able to connect with the normal resources of life - such as friendships and regular care. What often happens is that the consideration to take the sessions shifts during the proces: as symptoms resolve and you experience more deeply what it is really about and what the sessions fundamentally give you, this often becomes the reason to continue for a while. It\'s up to you how far you will go. We plan one session at a time. Every session moves you forward - you get out what you put in.',
+      sessions4: 'Even if, for whatever reason, you stop earlier, you will be at a different place than where you started. For example, you may have moved from feeling stuck and disconnected from any form of help, to feeling things shift again and being able to connect with the normal resources of life, such as friendships and regular care. What often happens is that the consideration to take the sessions shifts during the proces: as symptoms resolve and you experience more deeply what it is really about and what the sessions fundamentally give you, this often becomes the reason to continue for a while. It\'s up to you how far you will go. We plan one session at a time. Every session moves you forward - you get out what you put in.',
       contact: 'Contact'
     }
   }

@@ -10,7 +10,11 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-heading">3D Flow</h4>
             <p className="footer-description">
-              Online en in Rotterdam.
+              Online en live.
+            </p>
+            <p className="footer-address">
+              Theo van Doesburgstraat 1<br />
+              3059 PA Rotterdam
             </p>
           </div>
 

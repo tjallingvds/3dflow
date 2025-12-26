@@ -24,7 +24,7 @@ function Privacyverklaring() {
             <p>
               3D Flow<br />
               Theo van Doesburgstraat 1<br />
-              3059PA Rotterdam<br />
+              3059 PA Rotterdam<br />
               06 28406844<br />
               mail@3DFlow.nl
             </p>
